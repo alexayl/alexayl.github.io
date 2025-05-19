@@ -8,26 +8,26 @@ export default function Home() {
   const socials = [
     {
       title: "GitHub",
-      href: "https://github.com/afazio1",
+      href: "https://github.com/alexayl",
       icon: <Github className="w-4 h-4" />
     },
     {
       title: "LinkedIn",
-      href: "https://www.linkedin.com/in/alexa-fazio/",
+      href: "https://www.linkedin.com/in/alexayl/",
       icon: <Linkedin className="w-4 h-4"/>
     },
-    {
-      title: "YouTube",
-      href: "https://youtube.com/c/RoboticNation",
-      icon: <Youtube className="w-4 h-4"/>
-    }
+    // {
+    //   title: "YouTube",
+    //   href: "https://youtube.com/c/RoboticNation",
+    //   icon: <Youtube className="w-4 h-4"/>
+    // }
   ]
 
   return (
     <div className="space-y-6">
       <h1 className="text-purple-blue text-2xl md:text-3xl">Hello, World! 👋</h1>
       <p className="text-lg text-gray-white">
-        Web and systems enthusiast
+        Embedded software enthusiast & engineer
       </p>
       <div className="flex gap-4 flex-wrap">
         {socials.map((social) => (

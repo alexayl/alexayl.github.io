@@ -8,32 +8,18 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Canine Assistants",
-    description: "Web database to track service dog behavior and medical concerns.",
-    tags: ["Next.js", "MongoDB", "Azure"],
-    liveLink: "https://canine-assistants.netlify.app",
-    devLink: "https://github.com/GTBitsOfGood/canine-assistants",
-  },
-  {
-    title: "Peer Notes",
-    description: "P2P note sharing platform that allows students to host and search for notes based on professor, course, semester and topic.",
-    tags: ["Django", "Flask", "React.js", "SQLite"],
+    title: "LSH: Lua Shell for Zephyr",
+    description: "Run Lua scripts on Zephyr Real Time Operating System. This project is a Lua shell for the Zephyr RTOS, allowing users to run Lua scripts on embedded devices.",
+    tags: ["Zephyr RTOS", "C", "Lua"],
     liveLink: "",
-    devLink: "https://github.com/AmanTahiliani/PeerNotes",
+    devLink: "https://github.com/agguo/lsh",
   },
   {
-    title: "Web Crawler",
-    description: "Domain-specific web crawler written in Go with MongoDB as a web archive. Parses pages for keywords and creates an inverted index table for search queries.",
-    tags: ["Go", "MongoDB"],
+    title: "stm32pong",
+    description: "A simple pong game for STM32F4 Discovery board. The game is implemented using the STM32 HAL library and custom drivers for peripherals.",
+    tags: ["C", "Bare-metal"],
     liveLink: "",
-    devLink: "https://github.com/afazio1/web-crawler",
-  },
-  {
-    title: "Obsidian Plugin: Markdown Blogger",
-    description: "A text editor plugin empowering developers to effortlessly publish markdown notes to their static sites.",
-    tags: ["TypeScript", "Node.js"],
-    liveLink: "https://obsidian.md/plugins?search=markdown%20blogger",
-    devLink: "https://github.com/afazio1/obsidian-markdown-blogger"
+    devLink: "https://github.com/alexayl/stm32pong",
   }
 ]
 
